@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 Oct 2024, 13:26:44
+    Author     : mohamedasmy
+*/
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="date"]{
+    background-color: #0080ff;
+    padding: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    border-radius: 90px;
+
+}
+h1 [type="text"]{
+    font-size: 22px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+body {
+  overflow: hidden;
+}
+canvas {
+  background-color: #ffffff;
+}
+button {
+  font-size: 1em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 1em 3em;
+  border-radius: 3em;
+  background-color: #1164f4;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
